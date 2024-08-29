@@ -24,7 +24,7 @@ int CheckTest ()
     while (scan_return == 6)
 
     {
-        printf("начал тесты\n");
+        printf("Г­Г Г·Г Г« ГІГҐГ±ГІГ»\n");
 
         int nRoots = SolveSquare (line.a, line.b, line.c, &x1, &x2);
         if (nRoots != line.nRoots_Stated || !IsZero (x1 - line.x1_Stated) || !IsZero(x2 - line.x2_Stated))
@@ -41,7 +41,7 @@ int CheckTest ()
         else
 
         {
-            printf ( "тест %d пройден\n", nTest);
+            printf ( "ГІГҐГ±ГІ %d ГЇГ°Г®Г©Г¤ГҐГ­\n", nTest);
         }
 
         nTest++;
@@ -52,7 +52,7 @@ int CheckTest ()
                                     &line.nRoots_Stated);
     }
 
-    printf ("конец тестов");
+    printf ("ГЄГ®Г­ГҐГ¶ ГІГҐГ±ГІГ®Гў");
 
     fclose(file);
 
