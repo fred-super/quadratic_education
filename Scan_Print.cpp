@@ -32,10 +32,10 @@ void PrintRoots (enum RootsNumber nRoots, double x1, double x2)
     switch (nRoots)
 
     {
-        case INFINITY_ROOTS:   printf ("бесконечное множество");
+        case INFINITY_ROOTS:   printf ("ГЎГҐГ±ГЄГ®Г­ГҐГ·Г­Г®ГҐ Г¬Г­Г®Г¦ГҐГ±ГІГўГ®");
                                break;
 
-        case NO_ROOTS:         printf ("нет решений");
+        case NO_ROOTS:         printf ("Г­ГҐГІ Г°ГҐГёГҐГ­ГЁГ©");
                                break;
 
         case ONE_ROOTS:        printf ("x1 = %lf", x1);
